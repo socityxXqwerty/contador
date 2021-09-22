@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: snow;
+    text-align: center;
+   }
+   .menor {
+    color: blue;
+   }
+   .mayor {
+    color: red;
+   }
+   button {
+    margin: 0px 0.5rem;
+   }
+   

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta tags PWA-->
+    <!-- Color de la barra de título de la aplicación  -->
+    <meta name="theme-color" content="#333333">
+    <!-- Definimos en que está optimizada esta aplicación en este caso a lo ancho -->
+    <meta name="MobileOptimized" content="width">
+    <!-- Definimos que la aplicación es amigable para disitivos móviles handheld -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- Permite manipular y cambiar la configuración que trae por defecto sobre todo para la barra de estado en los dispositivos con ios -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- En el caso de ios hay tres estilos por defecto:  default -blanco-, black -negro-, black-translucent -translucido- -->
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+   <!-- Icons -->
+   <link rel="shortcut icon" href="./favicon.png" type="image/png"/>
+   <!-- Etiquetas especiales para dispositivos ios -->
+   <link rel="apple-touch-icon" href="./favicon.png" type="image/png"/>
+   <link rel="apple-touch-startup-image" href="./favicon.png" type="image/png"/>
+
+    
+   <link rel="manifest" href="./manifest.json" />
+
+
+   <!-- React -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Load Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./register.js"></script>
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css"/>
+
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Proyecto Contador</h1>
+    <div id="root"></div>
+
+
+    <script type="text/babel" src="./components/Contador.js"></script>
+    <script type="text/babel" src="./index.js"></script>
+</body>
+</html>
